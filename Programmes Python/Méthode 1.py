@@ -288,7 +288,7 @@ def moindrecarré(Pp):
     erreur=[]
     n=0
     FG=fg(E,Pp)
-    while FG>0.01 and n<100:
+    while FG>0.01 and n<10:
         print(n)
         print(FG)
         gamma=choixdelta(FG)
